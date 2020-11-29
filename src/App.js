@@ -11,7 +11,13 @@ class App extends React.Component {
       viewState: 'empty',
       cityInput: '',
       requestHistory: [],
-      weatherHistory: []
+      weatherHistory: [{
+        "locale": "Mountain View",
+        "currentTemp": 46.36,
+        "high": 48.99,
+        "low": 44.01,
+        "condition": "broken clouds"
+      }]
     };
   }
   async componentDidMount() {
